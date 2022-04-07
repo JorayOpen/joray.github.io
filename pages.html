@@ -1,0 +1,14 @@
+---
+layout: page
+title: 网页 
+header: 页面
+tagline: 查看所有发布的网页
+group: navigation
+---
+{% include JB/setup %}
+
+<h2>所有网页</h2>
+<ul>
+{% assign pages_list = site.pages %}
+{% include JB/pages_list %}
+</ul>

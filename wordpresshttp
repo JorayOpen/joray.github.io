@@ -1,0 +1,8 @@
+if (isset($parsed_home['host'])) {
+    $same_host = (strtolower($parsed_home['host']) === strtolower($parsed_url['host']) || 'localhost' === strtolower($parsed_url['host']));
+} else {
+    $same_host = false;
+};
+
+
+if ( 127 === $parts[0] || 10 === $parts[0] || 0 === $parts[0]

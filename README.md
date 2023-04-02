@@ -5,7 +5,7 @@
 
 ## 访问
 
-请看: <http://kzj.pingjiang.hn.cn>
+网址: <http://kzj.pingjiang.hn.cn>
 
 Q：13637815 T:1361161787
 
